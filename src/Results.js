@@ -1,31 +1,38 @@
-import axios from "axios";
-import { Component } from "react";
+// import axios from "axios";
+// import { Component } from "react";
+
+
+// import { useContext } from 'react'
+// import { FormContext } from './FormContext.js'
+
+
+export default function Results(props) {
+
+    const results = props.results
 
 
 
-export default class Results extends Component {
-    state = {
-        results: []
-    }
+    return (
+        <section>
+            <h3>
+                {//hard coded
+                }
+            File Detected: Titles Registry Form 1 Transfer
 
-    componentDidMount() {
-        axios.get('/api/results')
-        .then(res => {
-            console.log(res.data);
-            // this.setState({
-            //     results: res.data
-            // })
-        })
-    }
+            </h3>
 
-    render() {
-        const results = this.state.results
-        return (
-            <section>
-                <h2>results go here:</h2>
-                {results.map(result => <div>ya</div>)}
-            </section>
-    
-        )
-    }
+            <h3>
+                names
+            </h3>
+                {results && Object.entries(results.names).map(ele => 
+                    <p>{ele}</p>
+                )}
+            <h3>
+                dates
+            </h3>
+            {results && Object.entries(results.dates).map(ele => 
+                    <p>{ele}</p>
+                )}
+        </section>
+    )
 }

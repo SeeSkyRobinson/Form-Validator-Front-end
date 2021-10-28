@@ -1,0 +1,8 @@
+.results-sample-wrapper {
+    display: flex;
+}
+
+
+img {
+    max-width: 100%;
+}
