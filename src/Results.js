@@ -1,9 +1,3 @@
-// import axios from "axios";
-// import { Component } from "react";
-
-
-// import { useContext } from 'react'
-// import { FormContext } from './FormContext.js'
 
 
 export default function Results(props) {
@@ -11,26 +5,30 @@ export default function Results(props) {
     const results = props.results
 
 
+    let filteredNames = []
+    if (results) {
+        filteredNames = Object.values(results.names).filter(name => name.includes('invalid'))
+    }
+    let filteredDates = []
+    if (results) {
+        filteredDates = Object.values(results.dates).filter(name => name.includes('invalid'))
+    }
 
     return (
         <section>
             <h3>
-                {//hard coded
+                {   
+                //hard coded
                 }
             File Detected: Titles Registry Form 1 Transfer
-
             </h3>
-
-            <h3>
-                names
-            </h3>
-                {results && Object.entries(results.names).map(ele => 
+            <h4>
+                Failed tests:
+            </h4>
+                {results && filteredNames.map(ele => 
                     <p>{ele}</p>
                 )}
-            <h3>
-                dates
-            </h3>
-            {results && Object.entries(results.dates).map(ele => 
+                {results && filteredDates.map(ele => 
                     <p>{ele}</p>
                 )}
         </section>

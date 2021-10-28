@@ -1,8 +1,6 @@
 .results-sample-wrapper {
     display: flex;
+    width: 60%;
 }
 
 
-img {
-    max-width: 100%;
-}

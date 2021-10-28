@@ -1,0 +1,153 @@
+/* .sample-image {
+    width: 100%;
+} */
+
+
+.pass {
+    border: 5px solid rgb(88, 226, 34);
+    width: 100%;
+}
+
+.fail {
+    border: 5px solid rgba(250, 50, 50, 1);
+    width: 100%;
+}
+
+.sample-image-wrapper {
+    position: relative;
+}
+
+
+/* .hover {
+    border: 2px solid rgba(250, 50, 50, 0.5);
+    position: absolute;
+} */
+
+.zero.hover {
+    border: 2px solid black;
+    background-color: rgba(250, 50, 50, 0.5);
+    position: absolute;
+    top: 37%;
+    left: 7%;
+    width: 40%;
+    height: 2.8%;
+}
+
+.one.hover {
+    border: 2px solid black;
+    background-color: rgba(250, 50, 50, 0.5);
+    position: absolute;
+    top: 47%;
+    left: 7%;
+    width: 40%;
+    height: 2.8%;
+}
+
+.two.hover {
+    border: 2px solid black;
+    background-color: rgba(250, 50, 50, 0.5);
+    position: absolute;
+    top: 67%;
+    left: 4.7%;
+    width: 40%;
+    height: 2.1%;
+}
+.three.hover {
+    border: 2px solid black;
+    background-color: rgba(250, 50, 50, 0.5);
+    position: absolute;
+    top: 67.4%;
+    left: 51%;
+    width: 10%;
+    height: 1.8%;
+}
+.four.hover {
+    border: 2px solid black;
+    background-color: rgba(250, 50, 50, 0.5);
+    position: absolute;
+    top: 66.3%;
+    left: 67%;
+    width: 28%;
+    height: 2.2%;
+}
+.five.hover {
+    border: 2px solid black;
+    background-color: rgba(250, 50, 50, 0.5);
+    position: absolute;
+    top: 74.8%;
+    left: 4.7%;
+    width: 40%;
+    height: 2.1%;
+}
+.six.hover {
+    border: 2px solid black;
+    background-color: rgba(250, 50, 50, 0.5);
+    position: absolute;
+    top: 75%;
+    left: 51%;
+    width: 10%;
+    height: 1.8%;
+}
+.seven.hover {
+    border: 2px solid black;
+    background-color: rgba(250, 50, 50, 0.5);
+    position: absolute;
+    top: 73.9%;
+    left: 67%;
+    width: 28%;
+    height: 2.2%;
+}
+.eight.hover {
+    border: 2px solid black;
+    background-color: rgba(250, 50, 50, 0.5);
+    position: absolute;
+    top: 80.4%;
+    left: 4.7%;
+    width: 40%;
+    height: 2.1%;
+}
+.nine.hover {
+    border: 2px solid black;
+    background-color: rgba(250, 50, 50, 0.5);
+    position: absolute;
+    top: 81.5%;
+    left: 51%;
+    width: 10%;
+    height: 1.8%;
+}
+.ten.hover {
+    border: 2px solid black;
+    background-color: rgba(250, 50, 50, 0.5);
+    position: absolute;
+    top: 80.2%;
+    left: 67%;
+    width: 28%;
+    height: 2.2%;
+}
+.eleven.hover {
+    border: 2px solid black;
+    background-color: rgba(250, 50, 50, 0.5);
+    position: absolute;
+    top: 86.1%;
+    left: 4.7%;
+    width: 40%;
+    height: 2.1%;
+}
+.twelve.hover {
+    border: 2px solid black;
+    background-color: rgba(250, 50, 50, 0.5);
+    position: absolute;
+    top: 87%;
+    left: 51%;
+    width: 10%;
+    height: 1.8%;
+}
+.thirteen.hover {
+    border: 2px solid black;
+    background-color: rgba(250, 50, 50, 0.5);
+    position: absolute;
+    top: 85.9%;
+    left: 67%;
+    width: 28%;
+    height: 2.2%;
+}

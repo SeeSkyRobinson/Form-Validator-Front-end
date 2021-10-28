@@ -44,7 +44,7 @@ export default function Display() {
                 {isFileUploaded &&
                     <section className="results-sample-wrapper">
                         <Results results={results} />
-                        <Sample />
+                        <Sample results={results} />
                     </section>
                 }
             </div>
